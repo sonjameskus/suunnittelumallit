@@ -43,7 +43,9 @@ public class Main extends Game {
             ) {
                 player1Wins++;
                 System.out.println( "Player 1 wins this round! Score: " + player1Wins + "-" + player2Wins );
-            } else { player2Wins++; System.out.println( "Player 2 wins this round! Score: " + player1Wins + "-" + player2Wins );
+            } else {
+                player2Wins++;
+                System.out.println( "Player 2 wins this round! Score: " + player1Wins + "-" + player2Wins );
             }
         }
     }
